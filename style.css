@@ -7,12 +7,7 @@ body{
     height: auto;
     margin: 0px;
 }
-image{
-    width: 10px;
-}
-.followme{
-    scale: 50%;
-}
+
 section{
     margin: 0%;
     padding: 0%;
@@ -52,10 +47,7 @@ footer{
     padding: 0%;
     color: aliceblue;
 }
-.portrait{
-    margin: 2%;
-    border-radius: 5%;
-}
+
 .comicpicture img{
     display:block;
     width: 100%;
@@ -63,6 +55,26 @@ footer{
     margin: 0;
     padding: 0;
     border: 0;
-
-    
 }
+
+.portrait img{
+    width: 30%;
+     margin: 1%;
+     border-radius: 5%; 
+}
+@media(min-width:768px){
+    .portrait img{
+        width: 17%;
+        height: auto;
+    }
+}
+
+.followme{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    scale: 30%;
+    height: auto;
+}
+
+
