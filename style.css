@@ -2,6 +2,7 @@
     background-color: black;
     color: aliceblue;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 img{
     max-width: 100%;
@@ -9,4 +10,13 @@ img{
 }
 header{
     background-color: #ff8f00;
+}
+h1{
+    background-color: transparent;
+}
+h3{
+    background-color: transparent;
+}
+footer{
+    font-size: 60%;
 }
